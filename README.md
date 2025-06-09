@@ -1,26 +1,25 @@
-Busca CEP
-Essa página web simples permite que você busque rapidamente informações de endereço (logradouro, bairro, cidade e estado)  ao inserir o CEP.
+# Busca CEP
+---
+Essa página web simples permite que você **busque rapidamente informações de endereço** (logradouro, bairro, cidade e estado) ao inserir o CEP.
 
-Como Funciona
-Abaixo estarei listando alguns tópicos para utilizar:
+## Como Funciona
+Abaixo estão os passos para utilizar a ferramenta:
 
-1.Primeiramente acesse o link https://orlandopdj.github.io/busca-cep/
-Você verá um campo de entrada em destaque na página.Neste campo digite o CEP.
+1.  **Acesse o link**: Primeiramente, visite [https://orlandopdj.github.io/busca-cep/](https://orlandopdj.github.io/busca-cep/). Você verá um campo de entrada em destaque na página. Digite o CEP neste campo.
 
-2.Após digitar o CEP, pressione a tecla "Enter"
-essa ação inicia o processo de busca.
+2.  **Pressione "Enter"**: Após digitar o CEP, pressione a tecla "Enter". Essa ação inicia o processo de busca.
 
-4. Exibição dos Resultados
-irá receber os dados como:
--Logradouro
--Bairro
--Localidade (Cidade)
--UF (Estado)
-5. Tratamento de Erros
-Se o CEP que você digitou for inválido ou não encontrado no banco de dados, o site exibirá uma mensagem "CEP NAO ENCONTRADO".
+3.  **Exibição dos Resultados**: Você receberá os seguintes dados:
+    * **Logradouro**
+    * **Bairro**
+    * **Localidade** (Cidade)
+    * **UF** (Estado)
 
-Tecnologias Utilizadas
-HTML: Para a estrutura básica da página web.
-CSS: Para estilização.
-JavaScript: Para lidar com a interação do usuário, fazer requisições à API e exibir os resultados dinamicamente.
-API de CEP: Um serviço externo (como o ViaCEP, por exemplo) que fornece os dados de endereço.
+4.  **Tratamento de Erros**: Se o CEP digitado for inválido ou não for encontrado no banco de dados, o site exibirá a mensagem "**CEP NAO ENCONTRADO**".
+
+---
+## Tecnologias Utilizadas
+* **HTML**: Para a estrutura básica da página web.
+* **CSS**: Para estilização.
+* **JavaScript**: Para lidar com a interação do usuário, fazer requisições à API e exibir os resultados dinamicamente.
+* **API de CEP**: Um serviço externo (como o ViaCEP, por exemplo) que fornece os dados de endereço.
