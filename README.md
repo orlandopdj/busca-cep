@@ -7,7 +7,7 @@ Abaixo estão os passos para utilizar a ferramenta:
 
 1.  **Acesse o link**: Primeiramente, visite [busca-cep](https://orlandopdj.github.io/busca-cep/). Você verá um campo de entrada em destaque na página. Digite o CEP neste campo.
 
-2.  **Pressione "Enter"**: Após digitar o CEP, pressione a tecla "Enter". Essa ação inicia o processo de busca.
+2.  **Buscar dados"**: Após digitar o CEP, pressione a tecla "Enter". Essa ação inicia o processo de busca.
 
 3.  **Exibição dos Resultados**: Você receberá os seguintes dados:
     * **Logradouro**
