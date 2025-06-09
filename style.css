@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add this for consistent box model */
+}
+
+body {
+    width: 100%; /* Use 100% instead of 100vw for better mobile handling */
+    min-height: 100vh; /* Use min-height to allow content to expand */
+    background-color: #211C84;
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    padding: 20px; /* Add some padding around the body content */
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Make heading visible on dark background */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+h2{
+    padding: 8px 0;
+    color: #0c0a2e; /* Ensure this is visible if used in the form */
+}
+
+form {
+    background-color: #4D55CC;
+    width: 95%; /* Use percentage for width */
+    max-width: 400px; /* Set a maximum width so it doesn't get too wide on large screens */
+    padding: 20px 15px; /* Adjust padding slightly for better spacing */
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 1px #00000073;
+    display: flex; /* Use flexbox for form elements */
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 10px; /* Add space between form elements */
+}
+
+label {
+    color: #0c0a2e;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px; /* Increase padding for better touch targets */
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Make input take full width of its parent */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin: 0; /* Remove default margin from input if using gap on form */
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 5px 0;
+    color: #0c0a2e;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #a3a9fa;
+    word-wrap: break-word; /* Ensure long words break to prevent overflow */
+}
+
